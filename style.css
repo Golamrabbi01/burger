@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+
+/* navbar */
+#navbar img {
+    height: 60px;
+    width: 90px;
+}
+
+
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #AC2F20;
+    padding: 1rem;
+    text-transform: capitalize;
+    position: sticky;
+    z-index: 7;
+}
+
+#navbar ul {
+    margin: 10px 10px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+
+}
+
+#navbar ul li a {
+    color: rgb(255, 253, 253);
+    margin-left: 2rem;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    padding: 1rem;
+   
+}
+#navbar ul li a:hover {
+    background: #f86714;
+    color: #dfd6d1;
+    border-radius: 5px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+/* showcase */
+
+
+#showcase .center {
+    background: url(img-3/bargar-11.jpg) no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#showcase h1 {
+    font-size: 3rem;
+    color: #fff;
+}
+.center h1 {
+    text-transform: uppercase;
+}
+.center h1 span {
+    background: rgb(180, 9, 9);
+    padding: 5px;
+    text-transform: uppercase;
+   
+}
+
+/* barger item*/
+
+#item img {
+    transition:.4s;
+}
+#item img:hover {
+   transform: rotate(360deg);
+   border-radius: 50px;
+}
+
+img {
+    width: 100%;
+}
+#item .container h1 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
+
+#item .grid {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+}
+#item .grid h5 {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+/* about */
+
+   #about .info-container{
+       display: flex;
+       justify-content: space-between;
+       margin-top: 4rem;
+      
+   }
+   .text img {
+       width: 500px;
+   }
+
+   #about .home {
+       padding-left:6rem;
+   }
+   .home h1 {
+       font-size: 2rem;
+       padding-left: 4rem;
+       text-transform: uppercase;
+   }
+   .home p{
+    font-size: 1rem;
+    margin-top: 3rem;
+
+   }
+   /* about our menu */
+  
+   #about .home-1 {
+    padding-right:6rem;
+  
+}
+
+.text-1 img {
+    width: 500px;
+ 
+   
+}
+   .home-1 h1 {
+       font-size: 2rem;
+       padding-left: 4rem;
+       text-transform: uppercase;
+   }
+   .home-1 p{
+    font-size: 1rem;
+    margin-top: 3rem;
+
+   }
+
+
+ /* contact */
+ #contact .contact-us h1 {
+     font-size: 2rem;
+     text-transform: uppercase;
+     margin-top: 3rem;
+ }
+
+ #contact .contact-us p {
+    margin-top: 1rem;
+ }
+ #contact .text-1 input {
+    width: 100%;
+     font-size: 1.5rem;
+     margin-top: 1rem;   
+ }
+
+ .text-1 button {
+     text-align: center;
+     font-size: 2rem;
+     /* padding-right: 3rem;
+     margin-top: 1rem; */
+     color:rgb(255, 255, 255) ;
+     background: grey; 
+     border-radius: 10px;
+ }
+ .text-1 button:hover {
+     background: #fff;
+    color: rgb(182, 171, 171);
+    
+ } 
+
+/* Footer */
+#main-footer {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    background: #D08F55;
+    color: #fff;
+    padding: 20px;
+  }
+
+
